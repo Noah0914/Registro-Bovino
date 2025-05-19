@@ -4,6 +4,7 @@
  */
 package login;
 
+import Registros.registros;
 import javax.swing.JOptionPane;
 
 /**
@@ -181,7 +182,7 @@ public class interLogin extends javax.swing.JFrame {
         if (usuario.isEmpty() || paswd.isEmpty()) {
             JOptionPane.showMessageDialog(null, "Hay un campo vacío");
         }else{
-            if (usuario.equals("admin") && paswd.equals("45623")) {
+            if (usuario.equals("Noah") && paswd.equals("295")) {
                 //JOptionPane.showMessageDialog(null, "Bienvenido"+ usuario);
                 registros reg = new registros();
                 reg.setVisible(true);
