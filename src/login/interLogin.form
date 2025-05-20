@@ -68,12 +68,12 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="contraseña" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="pswd" max="32767" attributes="0"/>
+                                          <Component id="txtPassword" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="Usuario" min="-2" pref="135" max="-2" attributes="0"/>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="user" min="-2" pref="212" max="-2" attributes="0"/>
+                                          <Component id="txtUser" min="-2" pref="212" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
@@ -116,11 +116,11 @@
                           <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="Usuario" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="user" alignment="3" max="32767" attributes="0"/>
+                              <Component id="txtUser" alignment="3" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="pswd" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                              <Component id="txtPassword" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                               <Component id="contraseña" alignment="3" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
@@ -160,7 +160,7 @@
             <Property name="text" type="java.lang.String" value="Usuario:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="user">
+        <Component class="javax.swing.JTextField" name="txtUser">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Century" size="18" style="2"/>
@@ -172,7 +172,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JPasswordField" name="pswd">
+        <Component class="javax.swing.JPasswordField" name="txtPassword">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Century" size="18" style="2"/>
